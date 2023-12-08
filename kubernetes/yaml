@@ -15,7 +15,7 @@ spec:
       hostNetwork: true
       containers:
       - name: iot
-        image: 146417209myseneca/iot-mod-new_modification:modified
+        image: 146417209myseneca/iot-mod-new_modification
         ports:
            - containerPort: 9005
              hostPort: 9005
